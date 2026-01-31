@@ -26,18 +26,36 @@ A sleek, Mac widget-style desktop tool for testing web push notification tokens.
 
 ## 📦 Installation
 
-### Option 1: Download DMG (Recommended)
+### Option 1: Homebrew (Recommended for macOS)
 
-1. Download the latest `.dmg` from [Releases](https://github.com/avishek-chatterjee/web-push-tester/releases)
+```bash
+# Add the tap
+brew tap cavishek39/web-pn-checker
+
+# Install the app
+brew install --cask avishek-web-push-tester
+```
+
+Or install directly without adding the tap:
+
+```bash
+brew install --cask cavishek39/web-pn-checker/avishek-web-push-tester
+```
+
+### Option 2: Download DMG
+
+1. Download the latest `.dmg` from [Releases](https://github.com/cavishek39/web-pn-checker/releases)
 2. Open the DMG and drag the app to Applications
 3. Launch from Applications folder
 
-### Option 2: Build from Source
+> **Note:** On first launch, you may need to right-click and select "Open" to bypass Gatekeeper since the app is not notarized.
+
+### Option 3: Build from Source
 
 ```bash
 # Clone the repository
-git clone https://github.com/avishek-chatterjee/web-push-tester.git
-cd web-push-tester
+git clone https://github.com/cavishek39/web-pn-checker.git
+cd web-pn-checker
 
 # Install dependencies
 npm install
