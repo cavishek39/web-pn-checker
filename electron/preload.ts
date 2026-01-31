@@ -47,6 +47,10 @@ const electronAPI = {
 
   saveConfig: (config: SavedConfig): Promise<void> =>
     ipcRenderer.invoke('save-config', config),
+
+  checkForUpdates: (): Promise<void> => ipcRenderer.invoke('check-for-updates'),
+
+  getAppVersion: (): Promise<string> => ipcRenderer.invoke('get-app-version'),
 }
 
 contextBridge.exposeInMainWorld('electronAPI', electronAPI)
