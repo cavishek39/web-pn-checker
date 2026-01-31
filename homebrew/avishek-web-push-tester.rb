@@ -3,7 +3,7 @@ cask "avishek-web-push-tester" do
   sha256 :no_check
 
   # Update this URL when you have a GitHub release
-  url "https://github.com/cavishek39/web-pn-checker/releases/download/v#{version}/Avishek.Web.Push.Tester-#{version}-arm64.dmg"
+  url "https://github.com/cavishek39/web-pn-checker/releases/download/v#{version}/Avishek-Web-Push-Tester-#{version}-arm64.dmg"
   name "Avishek Web Push Tester"
   desc "A sleek Mac widget for testing web push notification tokens"
   homepage "https://github.com/cavishek39/web-pn-checker"
