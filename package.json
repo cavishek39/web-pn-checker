@@ -1,6 +1,6 @@
 {
   "name": "avishek-web-push-tester",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A sleek Mac widget for testing web push notification tokens",
   "main": "dist-electron/main.js",
   "author": "Avishek Chatterjee",
