@@ -14,6 +14,16 @@ A sleek, Mac widget-style desktop tool for testing web push notification tokens.
 - 🔍 **Detailed Error Messages** - Clear explanations for common push errors
 - 💾 **Session Persistence** - Your settings are saved between sessions
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/app-token-view.png" alt="Web Push Tester - Token View" width="400">
+</p>
+
+<p align="center">
+  <em>Sleek dark mode interface with glassmorphism design</em>
+</p>
+
 ## 📦 Installation
 
 ### Option 1: Download DMG (Recommended)
