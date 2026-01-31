@@ -16,9 +16,10 @@ A sleek, Mac widget-style desktop tool for testing web push notification tokens.
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="screenshots/app-token-view.png" alt="Web Push Tester - Token View" width="400">
-</p>
+<div display="flex" flew-direction="row" al>
+  <img width="400" height="800" alt="Screenshot 2026-01-31 at 3 19 04 PM" src="https://github.com/user-attachments/assets/f9d4a240-12b8-4f96-9fce-69a5d02bc61f" />
+  <img width="400" height="800" alt="Screenshot 2026-01-31 at 3 20 50 PM" src="https://github.com/user-attachments/assets/b5c618c8-f88b-4347-a015-663a7dd6b1b6" />
+</div>
 
 <p align="center">
   <em>Sleek dark mode interface with glassmorphism design</em>
